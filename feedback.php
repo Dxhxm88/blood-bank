@@ -8,7 +8,7 @@
     <div class="media">
         <img src="https://cdn.pixabay.com/photo/2018/04/12/04/26/blood-pressure-3312513_960_720.png" class="mr-3 w-50" alt="...">
         <div class="media-body">
-            <form action="https://formspree.io/f/xeqnkydw" method="POST">
+            <form action="https://formspree.io/f/xpzbrvea" method="POST">
                 <h2 class="w3-center">Feedback</h2>
                 <div class="form-group">
                     <label for="exampleInputEmail1">Email address</label>
