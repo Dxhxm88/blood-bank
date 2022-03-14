@@ -7,7 +7,7 @@ $blood = json_decode(bloodList());
 		<div class="col-md-3"></div>
 		<div class="col-md-6 w3-light-grey w3-border w3-padding-16 mt-4 rounded">
 			<div class="w3-padding-24">
-				<h2>Reciever/User Register</h2>
+				<h2>Receiver/User Register</h2>
 			</div>
 			<form>
 				<div class="form-group">
@@ -49,7 +49,7 @@ $blood = json_decode(bloodList());
 						?>
 					</select>
 				</div>
-				<a href="#" class="btn btn-outline-primary" id="register">Register</a>
+				<a href="#" class="btn btn-outline-danger" id="register">Register</a>
 			</form>
 		</div>
 		<div class="col-md-3"></div>

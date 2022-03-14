@@ -1,8 +1,8 @@
 <?php require_once 'header.php'; ?>
 
 <div class="container">
-    <div class="jumbotron">
-        <h1 class="display-4">Feedback</h1>
+    <div class="jumbotron" style="background-color: maroon;">
+        <h1 class="display-4 text-white">Feedback</h1>
     </div>
 
     <div class="media">
@@ -18,7 +18,7 @@
                     <label for="exampleFormControlTextarea1">Feedback</label>
                     <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" name="message" require></textarea>
                 </div>
-                <button type="submit" class="btn btn-primary">Submit</button>
+                <button type="submit" class="btn btn-outline-danger">Submit</button>
             </form>
         </div>
     </div>

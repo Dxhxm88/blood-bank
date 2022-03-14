@@ -3,9 +3,9 @@ $blood = json_decode(bloodList());
 ?>
 
 <div class="container">
-	<div class="jumbotron">
-		<h1 class="display-4">Welcome to Blood Bank System</h1>
-		<p class="lead text-muted">Blood is the most precious gift that anyone can give to another person. Donating blood not only saves the life also save donor's lives.</p>
+	<div class="jumbotron" style="background-color: maroon;">
+		<h1 class="display-4 text-white">Welcome to Blood Bank System</h1>
+		<p class="lead text-white">Blood is the most precious gift that anyone can give to another person. Donating blood not only saves the life also save donor's lives.</p>
 	</div>
 
 	<!-- <div class="card"> -->
@@ -40,7 +40,7 @@ $blood = json_decode(bloodList());
 			<label>Search</label>
 			<div class="form-inline my-2 my-lg-0">
 				<input class="form-control mr-sm-2" type="text" placeholder="Hospital name" id="search">
-				<button class="btn btn-outline-primary my-2 my-sm-0" type="submit" id="search_btn">Search</button>
+				<button class="btn btn-outline-danger my-2 my-sm-0" type="submit" id="search_btn">Search</button>
 			</div>
 		</div>
 	</div>
@@ -88,7 +88,7 @@ $blood = json_decode(bloodList());
 					out += '<div class="card-block">';
 					out += '<h4 class="card-title">' + arr["stock"][i]["hospital_name"] + ' <span class="badge badge-default">' + arr["stock"][i]["blood"] + '</span></h4>';
 					out += '<p class="card-text">Available ' + arr["stock"][i]["volume"] + ' ml</p>';
-					out += '<a href="#" class="btn btn-outline-primary request_blood_btn" data-hospital_id="' + arr["stock"][i]["hospital_id"] + '" data-blood_id="' + arr["stock"][i]["blood_id"] + '">Request blood</a>';
+					out += '<a href="#" class="btn btn-outline-danger request_blood_btn" data-hospital_id="' + arr["stock"][i]["hospital_id"] + '" data-blood_id="' + arr["stock"][i]["blood_id"] + '">Request blood</a>';
 					out += '</div>';
 					out += '</div>';
 					out += '</div>';

@@ -95,6 +95,11 @@
 			height: max-content;
 			background: #FFF;
 		}
+
+		.navbar-light .navbar-nav .nav-link:focus,
+		.navbar-light .navbar-nav .nav-link:hover {
+			color: maroon;
+		}
 	</style>
 </head>
 
@@ -104,7 +109,10 @@
 			<span class="navbar-toggler-icon"></span>
 		</button>
 		<div class="container">
-			<a class="navbar-brand" href="index.php"><?= $COMPANY_NAME ?></a>
+			<a class="navbar-brand" href="index.php" style="color: maroon;">
+				<img src="img/blood.svg" alt="" style="width: 40px;">
+				<?= $COMPANY_NAME ?>
+			</a>
 			<div class="collapse navbar-collapse" id="navbarNavDropdown">
 				<ul class="navbar-nav">
 					<?php
@@ -186,7 +194,7 @@
 						$out .= '<li class="nav-item dropdown" id="tab_register">';
 						$out .= '<a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Register</a>';
 						$out .= '<div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">';
-						$out .= '<a class="dropdown-item" href="register_user.php">As Reciever/User</a>';
+						$out .= '<a class="dropdown-item" href="register_user.php">As Receiver/User</a>';
 						$out .= '<a class="dropdown-item" href="register_hospital.php">As Hospital</a>';
 						$out .= '</div>';
 						$out .= '</li>';

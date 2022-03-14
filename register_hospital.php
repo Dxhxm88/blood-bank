@@ -31,7 +31,7 @@
 					<label for="mobile">Mobile</label>
 					<input type="tel" class="form-control register" id="mobile" placeholder="Enter 10 digit mobile number">
 				</div>
-				<a href="#" class="btn btn-outline-primary" id="register">Register</a>
+				<a href="#" class="btn btn-outline-danger" id="register">Register</a>
 			</form>
 		</div>
 		<div class="col-md-3"></div>

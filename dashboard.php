@@ -11,7 +11,7 @@ $blood = json_decode(bloodList());
 	<div class="row">
 		<div class="col-md-12">
 			<span>If you want to add/update your blood stock, then click here</span>
-			<a class="btn btn-outline-primary" data-toggle="collapse" href="#stock_add" aria-expanded="false" aria-controls="stock_add">Add/Update</a>
+			<a class="btn btn-outline-danger" data-toggle="collapse" href="#stock_add" aria-expanded="false" aria-controls="stock_add">Add/Update</a>
 		</div>
 	</div><br>
 	<div class="collapse" id="stock_add">
@@ -36,7 +36,7 @@ $blood = json_decode(bloodList());
 			</div>
 			<div class="col-md-4">
 				<br>
-				<a class="btn btn-outline-primary" href="#" id="stock_add_btn">Add/Update</a>
+				<a class="btn btn-outline-danger" href="#" id="stock_add_btn">Add/Update</a>
 			</div>
 		</div>
 	</div>
@@ -122,7 +122,7 @@ $blood = json_decode(bloodList());
 					out += '<h4 class="card-title font-weight-bold">' + arr["request"][i]["first_name"] + ' ' + arr["request"][i]["last_name"] + '</h4>';
 					out += '<p class="card-text">I need an urgent requirement of ' + arr["request"][i]["volume"] + ' ml, ' + arr["request"][i]["blood"] + ' blood. Please Contact me.</p>';
 					out += '<p class="card-text w3-small w3-text-grey">' + arr["request"][i]["datetime"] + '</p>';
-					out += '<button class="btn btn-outline-primary">' + arr["request"][i]["user_mobile"] + '</button>';
+					out += '<button class="btn btn-outline-danger">' + arr["request"][i]["user_mobile"] + '</button>';
 					out += '</div>';
 					out += '</div>';
 					out += '</div>';

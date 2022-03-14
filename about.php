@@ -1,8 +1,8 @@
 <?php require_once 'header.php'; ?>
 
 <div class="container">
-    <div class="jumbotron">
-        <h1 class="display-4">About Blood Bank</h1>
+    <div class="jumbotron" style="background-color: maroon;">
+        <h1 class="display-4 text-white">About Blood Bank</h1>
     </div>
 
     <div class="media">
